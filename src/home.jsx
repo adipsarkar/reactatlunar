@@ -4,8 +4,12 @@ export default function Home() {
   return (
     <div style={styles.container}>
       <div style={styles.content}>
-        <img src="iic.png" className="w-25" style={styles.image} alt=""/>
-        <p style={styles.description}>This is a description just below the photo.</p>
+        <img src="iic.png" className="w-25" style={styles.image} alt="" />
+        <p style={styles.description}>Since 2017, Itahari International College has offered top-tier IT and Business programmes in
+          partnership with London Metropolitan University, UK. It aims to produce globally competitive graduates,
+          making it the first college in Itahari to provide a direct UK university degree.
+          IIC nurtures future leaders and innovators by providing hands-on experiences, real-world projects, and a practical curriculum.
+          Our commitment is evident in our alumni's successful careers and high placement rates. Itahari International College is a flagship institution of Innovate Nepal Group (ING)..</p>
       </div>
     </div>
   );
